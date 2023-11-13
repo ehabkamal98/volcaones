@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Owbeirak Serif";
+  margin: 0;
+  background-color: #fcf3f6;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #2c292b;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #2c292b;
+}
+
+.headerKey {
+  height: 50px;
+  background-color: #1f8cb7;
+  border: 2px solid #043137;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #07466f;
+  color: white;
+  border: 1px solid #07466f;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #14769c;
+  border-color: #14769c;
+}
+
+.btn--alt {
+  background-color: transparent;
+  color: #000980;
+}
+
+.btn--alt:hover {
+  background-color: #f8dae9;
+}
+

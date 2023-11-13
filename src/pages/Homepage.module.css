@@ -1,0 +1,44 @@
+.home_jpg {
+  width: 90%;
+}
+.error {
+  background-color: blanchedalmond;
+  color: red;
+  border: 1px solid red;
+  padding: 10px;
+}
+.success {
+  background-color: honeydew;
+  color: green;
+  border: 1px solid green;
+  padding: 10px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  padding: 3px;
+}
+.content  > .left {
+    flex-grow: 1;
+
+}
+.right{
+    flex: 6;
+}
+.right .img{
+    width: 100%;
+    height: auto;    
+}  
+.density{
+
+    text-align: center;
+}
+.chart{
+    margin: 0 auto;
+    width: 450px;
+    
+}
+.padding{
+    padding: 10px;
+}
